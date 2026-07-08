@@ -1,0 +1,85 @@
+<svg width="100%" height="280" viewBox="0 0 900 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Border Gradient -->
+    <linearGradient id="t-border" x1="0" y1="0" x2="900" y2="280" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1e293b" />
+      <stop offset="0.5" stop-color="#3b82f6" stop-opacity="0.3" />
+      <stop offset="1" stop-color="#1e293b" />
+    </linearGradient>
+    
+    <!-- Box Gradients -->
+    <linearGradient id="box-grad-purple" x1="0" y1="0" x2="260" y2="200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1e1b4b" stop-opacity="0.7" />
+      <stop offset="1" stop-color="#02010a" stop-opacity="0.95" />
+    </linearGradient>
+    <linearGradient id="box-grad-blue" x1="0" y1="0" x2="260" y2="200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0c2530" stop-opacity="0.7" />
+      <stop offset="1" stop-color="#010408" stop-opacity="0.95" />
+    </linearGradient>
+    <linearGradient id="box-grad-green" x1="0" y1="0" x2="260" y2="200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#022c22" stop-opacity="0.7" />
+      <stop offset="1" stop-color="#000201" stop-opacity="0.95" />
+    </linearGradient>
+  </defs>
+
+  <!-- Frame Background -->
+  <rect width="900" height="280" rx="14" fill="#070709" stroke="url(#t-border)" stroke-width="1.5" />
+
+  <!-- Grid Pattern -->
+  <pattern id="t-grid" width="30" height="30" patternUnits="userSpaceOnUse">
+    <circle cx="15" cy="15" r="1" fill="#ffffff" fill-opacity="0.04" />
+  </pattern>
+  <rect width="900" height="280" rx="14" fill="url(#t-grid)" />
+
+  <!-- Connection circuit lines -->
+  <path d="M 290,150 L 320,150" stroke="#3b82f6" stroke-opacity="0.2" stroke-width="1.5" fill="none" />
+  <path d="M 580,150 L 610,150" stroke="#10b981" stroke-opacity="0.2" stroke-width="1.5" fill="none" />
+
+  <!-- Card 1: Machine Learning Core (Purple) -->
+  <g transform="translate(30, 40)">
+    <rect width="260" height="200" rx="10" fill="url(#box-grad-purple)" stroke="#581c87" stroke-width="1.25" />
+    <circle cx="20" cy="22" r="4" fill="#c084fc" />
+    <text x="32" y="26" font-family="'Space Grotesk', -apple-system, sans-serif" font-weight="700" font-size="13" fill="#ffffff" letter-spacing="0.5">01 / NEURAL ENGINE</text>
+    
+    <g transform="translate(20, 50)" font-family="'Inter', -apple-system, sans-serif" font-size="11.5" line-height="2">
+      <text x="0" y="15" fill="#cbd5e1" font-weight="600">TensorFlow &amp; Keras <tspan fill="#a78bfa" font-weight="400"> (Models)</tspan></text>
+      <text x="0" y="38" fill="#cbd5e1" font-weight="600">PyTorch ecosystem <tspan fill="#a78bfa" font-weight="400"> (Deep Nets)</tspan></text>
+      <text x="0" y="61" fill="#cbd5e1" font-weight="600">Scikit-Learn <tspan fill="#a78bfa" font-weight="400"> (ML Reg/Clust)</tspan></text>
+      <text x="0" y="84" fill="#cbd5e1" font-weight="600">NumPy &amp; Pandas <tspan fill="#a78bfa" font-weight="400"> (Data Matrix)</tspan></text>
+      <text x="0" y="107" fill="#cbd5e1" font-weight="600">Hyperparameters <tspan fill="#a78bfa" font-weight="400"> (Optimizations)</tspan></text>
+    </g>
+    <rect x="0" y="196" width="260" height="4" rx="2" fill="#a855f7" />
+  </g>
+
+  <!-- Card 2: Perception & Interfacing (Blue) -->
+  <g transform="translate(320, 40)">
+    <rect width="260" height="200" rx="10" fill="url(#box-grad-blue)" stroke="#0e7490" stroke-width="1.25" />
+    <circle cx="20" cy="22" r="4" fill="#22d3ee" />
+    <text x="32" y="26" font-family="'Space Grotesk', -apple-system, sans-serif" font-weight="700" font-size="13" fill="#ffffff" letter-spacing="0.5">02 / PERCEPTION &amp; API</text>
+    
+    <g transform="translate(20, 50)" font-family="'Inter', -apple-system, sans-serif" font-size="11.5">
+      <text x="0" y="15" fill="#cbd5e1" font-weight="600">OpenCV Vision <tspan fill="#67e8f9" font-weight="400"> (C++/Python)</tspan></text>
+      <text x="0" y="38" fill="#cbd5e1" font-weight="600">FastAPI framework <tspan fill="#67e8f9" font-weight="400"> (Microservices)</tspan></text>
+      <text x="0" y="61" fill="#cbd5e1" font-weight="600">Firebase endpoints <tspan fill="#67e8f9" font-weight="400"> (Realtime Auth)</tspan></text>
+      <text x="0" y="84" fill="#cbd5e1" font-weight="600">SQL &amp; Relational DB <tspan fill="#67e8f9" font-weight="400"> (MySQL Storage)</tspan></text>
+      <text x="0" y="107" fill="#cbd5e1" font-weight="600">Video Processing <tspan fill="#67e8f9" font-weight="400"> (Live Streaming)</tspan></text>
+    </g>
+    <rect x="0" y="196" width="260" height="4" rx="2" fill="#06b6d4" />
+  </g>
+
+  <!-- Card 3: Execution & DevOps (Green) -->
+  <g transform="translate(610, 40)">
+    <rect width="260" height="200" rx="10" fill="url(#box-grad-green)" stroke="#065f46" stroke-width="1.25" />
+    <circle cx="20" cy="22" r="4" fill="#34d399" />
+    <text x="32" y="26" font-family="'Space Grotesk', -apple-system, sans-serif" font-weight="700" font-size="13" fill="#ffffff" letter-spacing="0.5">03 / SYSTEM RUNTIME</text>
+    
+    <g transform="translate(20, 50)" font-family="'Inter', -apple-system, sans-serif" font-size="11.5">
+      <text x="0" y="15" fill="#cbd5e1" font-weight="600">Docker Virtualization <tspan fill="#6ee7b7" font-weight="400"> (Container)</tspan></text>
+      <text x="0" y="38" fill="#cbd5e1" font-weight="600">Linux environments <tspan fill="#6ee7b7" font-weight="400"> (Bash Deploy)</tspan></text>
+      <text x="0" y="61" fill="#cbd5e1" font-weight="600">C++ Programming <tspan fill="#6ee7b7" font-weight="400"> (Native Core)</tspan></text>
+      <text x="0" y="84" fill="#cbd5e1" font-weight="600">Git versioning <tspan fill="#6ee7b7" font-weight="400"> (CI/CD workflows)</tspan></text>
+      <text x="0" y="107" fill="#cbd5e1" font-weight="600">VS Code workspace <tspan fill="#6ee7b7" font-weight="400"> (Tooling Environment)</tspan></text>
+    </g>
+    <rect x="0" y="196" width="260" height="4" rx="2" fill="#10b981" />
+  </g>
+</svg>
