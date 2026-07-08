@@ -165,6 +165,25 @@ These production-ready architectures demonstrate my implementation work in compu
 
 ---
 
+## 📊 Analytics Workspace
+
+A synchronized aggregation of coding activities and repository statistics across my GitHub profile.
+
+<p align="center">
+  <!-- Stats Card -->
+  <img height="185" src="https://github-stats-extended.vercel.app/api?username=mrgraciz123&show_icons=true&theme=tokyonight&hide_border=true&bg_color=070709&title_color=a855f7&text_color=cbd5e1&icon_color=3b82f6" alt="Abhay's Profile Stats" />
+  &nbsp;&nbsp;
+  <!-- Languages Card -->
+  <img height="185" src="https://github-stats-extended.vercel.app/api/top-langs/?username=mrgraciz123&layout=compact&theme=tokyonight&hide_border=true&bg_color=070709&title_color=a855f7&text_color=cbd5e1&langs_count=6" alt="Abhay's Language Statistics" />
+</p>
+
+<p align="center">
+  <!-- Streak Card -->
+  <img src="https://streak-stats.demolab.com?user=mrgraciz123&theme=tokyonight&hide_border=true&background=070709&ring=a855f7&fire=3b82f6&currStreakLabel=a855f7&sideNums=cbd5e1&sideLabels=94a3b8" alt="Abhay's Commit Streak" />
+</p>
+
+---
+
 ## ⚡ Active Horizon & Systems CLI
 
 Interactive console outputs displaying my current research roadmap, targets for 2026, and developmental trivia.
@@ -204,7 +223,11 @@ $ abhay --trivia --verbose
 
 ## 🐍 Interactive Activity Snake
 
-An automated workflow executes daily to crawl my GitHub contributions grid and compile a dynamic vector animation:
+A live interactive game of snake crawling through my contribution grid squares:
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/mrgraciz123/mrgraciz123/output/github-contribution-grid-snake-dark.svg" alt="Abhay's Contribution Snake Grid" width="100%" />
+</p>
 
 ```bash
 $ snake-crawler --generate --theme cyberpunk --output output/github-contribution-grid-snake-dark.svg
@@ -212,12 +235,6 @@ $ snake-crawler --generate --theme cyberpunk --output output/github-contribution
 > Computing snake node path trajectories ... [OK]
 > Compiling active crawler animation frame ... [SUCCESS]
 ```
-
-> [!TIP]
-> ### How to activate this snake on your profile:
-> 1. Create a workspace action file in your repo: `.github/workflows/snake.yml`
-> 2. Add the **Platane/snk** execution hook.
-> 3. Configure the runner to check in the compiled `.svg` asset directly into a branch named `output` so the link becomes active!
 
 ---
 
