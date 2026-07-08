@@ -192,12 +192,13 @@ A synchronized aggregation of coding activities and repository statistics across
 
 Interactive console outputs displaying my current research roadmap, targets for 2026, and developmental trivia.
 
-<pre>
-<span style="color: #38bdf8;">$ abhay --init</span>
-<span style="color: #64748b;">Initializing neural workspace ... [OK]</span>
-<span style="color: #64748b;">Loading metrics parameters ... [OK]</span>
+```bash
+$ abhay --init
+Initializing neural workspace ... [OK]
+Loading metrics parameters ... [OK]
+```
 
-<span style="color: #a855f7;">$ abhay --query --stack --active</span>
+```json
 {
   "focus_learning": [
     "Advanced Deep Learning: Multi-modal models and Transformer blocks",
@@ -212,13 +213,15 @@ Interactive console outputs displaying my current research roadmap, targets for 
     "💼 Secure a focused industrial machine learning or computer vision internship"
   ]
 }
+```
 
-<span style="color: #10b981;">$ abhay --trivia --verbose</span>
-&gt; Prototyping complex neural structures from absolute scratch is my primary workflow.
-&gt; Strong advocate of visual computing models addressing immediate real-world use-cases.
-&gt; peak compiling efficiency occurs inside late-night programming blocks.
-&gt; Space Grotesk is configured as my primary interface typeface.
-</pre>
+```bash
+$ abhay --trivia --verbose
+> Prototyping complex neural structures from absolute scratch is my primary workflow.
+> Strong advocate of visual computing models addressing immediate real-world use-cases.
+> peak compiling efficiency occurs inside late-night programming blocks.
+> Space Grotesk is configured as my primary interface typeface.
+```
 
 ---
 
