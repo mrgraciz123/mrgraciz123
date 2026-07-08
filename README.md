@@ -31,6 +31,9 @@
 
   <!-- Social Link Badges -->
   <p align="center">
+    <a href="mailto:abhaylibra15@gmail.com" target="_blank">
+      <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail Badge"/>
+    </a>
     <a href="https://www.linkedin.com/in/abhay-shanker-tiwari-0a8031213/" target="_blank">
       <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
     </a>
@@ -242,9 +245,19 @@ $ snake-crawler --generate --theme cyberpunk --output output/github-contribution
 
 I am always down to discuss model optimizations, high-efficiency vision systems, APIs, or upcoming hackathons.
 
-- **LinkedIn Platform:** [Abhay Shanker Tiwari](https://www.linkedin.com/in/abhay-shanker-tiwari-0a8031213/)
-- **X Profile:** [@mr_graciz](https://x.com/mr_graciz)
-- **Direct Mail:** *Reach out via LinkedIn or X direct message for secure inquiries.*
+<p align="center">
+  <a href="mailto:abhaylibra15@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Gmail-abhaylibra15%40gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail Badge"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/abhay-shanker-tiwari-0a8031213/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-Abhay%20Shanker%20Tiwari-0077b5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://x.com/mr_graciz" target="_blank">
+    <img src="https://img.shields.io/badge/X-@mr__graciz-000000?style=for-the-badge&logo=x&logoColor=white" alt="X Badge"/>
+  </a>
+</p>
 
 <div align="center">
   <br/>
