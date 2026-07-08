@@ -109,53 +109,48 @@ These production-grade architectures demonstrate my implementation work in compu
 
 <!-- Glassmorphism Cards Grid Table -->
 <table width="100%" border="0" cellpadding="0" cellspacing="10" style="border-collapse: separate; border-spacing: 10px;">
-  <tr>
-    <!-- Project Card 1: AscendID -->
-    <td width="50%" valign="top">
-      <a href="https://github.com/mrgraciz123/AscendID" target="_blank">
-        <img src="assets/projects/ascendid.svg" width="100%" alt="AscendID Project Card" />
-      </a>
-    </td>
-
-    <!-- Project Card 2: Gender Classification -->
-    <td width="50%" valign="top">
-      <a href="https://github.com/mrgraciz123/gender-classification" target="_blank">
-        <img src="assets/projects/gender.svg" width="100%" alt="Gender Classification Project Card" />
-      </a>
-    </td>
-  </tr>
-  
-  <tr>
-    <!-- Project Card 3: Cat vs Dog Classifier -->
-    <td width="50%" valign="top">
-      <a href="https://github.com/mrgraciz123/cat-vs-dog" target="_blank">
-        <img src="assets/projects/catdog.svg" width="100%" alt="Cat vs Dog Project Card" />
-      </a>
-    </td>
-
-    <!-- Project Card 4: House Price Prediction -->
-    <td width="50%" valign="top">
-      <a href="https://github.com/mrgraciz123/house-price-prediction" target="_blank">
-        <img src="assets/projects/house.svg" width="100%" alt="House Price Project Card" />
-      </a>
-    </td>
-  </tr>
-
-  <tr>
-    <!-- Project Card 5: Iris K-Means -->
-    <td width="50%" valign="top">
-      <a href="https://github.com/mrgraciz123/iris-kmeans" target="_blank">
-        <img src="assets/projects/iris.svg" width="100%" alt="Iris K-Means Project Card" />
-      </a>
-    </td>
-
-    <!-- Project Card 6: Insurance Prediction -->
-    <td width="50%" valign="top">
-      <a href="https://github.com/mrgraciz123/insurance-prediction" target="_blank">
-        <img src="assets/projects/insurance.svg" width="100%" alt="Insurance Prediction Project Card" />
-      </a>
-    </td>
-  </tr>
+<tr>
+<!-- Project Card 1: AscendID -->
+<td width="50%" valign="top">
+<a href="https://github.com/mrgraciz123/AscendID" target="_blank">
+<img src="assets/projects/ascendid.svg" width="100%" alt="AscendID Project Card" />
+</a>
+</td>
+<!-- Project Card 2: Gender Classification -->
+<td width="50%" valign="top">
+<a href="https://github.com/mrgraciz123/gender-classification" target="_blank">
+<img src="assets/projects/gender.svg" width="100%" alt="Gender Classification Project Card" />
+</a>
+</td>
+</tr>
+<tr>
+<!-- Project Card 3: Cat vs Dog Classifier -->
+<td width="50%" valign="top">
+<a href="https://github.com/mrgraciz123/cat-vs-dog" target="_blank">
+<img src="assets/projects/catdog.svg" width="100%" alt="Cat vs Dog Project Card" />
+</a>
+</td>
+<!-- Project Card 4: House Price Prediction -->
+<td width="50%" valign="top">
+<a href="https://github.com/mrgraciz123/house-price-prediction" target="_blank">
+<img src="assets/projects/house.svg" width="100%" alt="House Price Project Card" />
+</a>
+</td>
+</tr>
+<tr>
+<!-- Project Card 5: Iris K-Means -->
+<td width="50%" valign="top">
+<a href="https://github.com/mrgraciz123/iris-kmeans" target="_blank">
+<img src="assets/projects/iris.svg" width="100%" alt="Iris K-Means Project Card" />
+</a>
+</td>
+<!-- Project Card 6: Insurance Prediction -->
+<td width="50%" valign="top">
+<a href="https://github.com/mrgraciz123/insurance-prediction" target="_blank">
+<img src="assets/projects/insurance.svg" width="100%" alt="Insurance Prediction Project Card" />
+</a>
+</td>
+</tr>
 </table>
 
 ---
