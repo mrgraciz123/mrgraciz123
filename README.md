@@ -1,35 +1,35 @@
 <!--
-✨ HANDCRAFTED 2026 GITHUB PROFILE LANDING PAGE
-🎨 DESIGN LANGUAGE: VERCEL × LINEAR × APPLE
-🦾 DEVELOPER: ABHAY SHANKER TIWARI
+⚡ NEURAL PORTAL: mrgraciz123 // 2026 EDITION
+🦾 DESIGN SYSTEM: VERCEL GLITCH × LINEAR × APPLE DARK
+🚀 STATUS: COOKING CODE FR FR
 -->
 
 <div align="center">
-  <!-- Glowing Interactive Tech Banner -->
+  <!-- Glowing Cyber Banner -->
   <a href="https://github.com/mrgraciz123" target="_blank">
     <img src="assets/banner.svg" width="100%" alt="Abhay Shanker Tiwari Cyber Banner" />
   </a>
 
   <br/><br/>
 
-  <!-- Interactive Typing Animation -->
+  <!-- High-Frequency Typing SVG -->
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.herokuapp.com?font=Space+Grotesk&weight=600&size=28&duration=3000&pause=1000&color=40B4FF&center=true&vCenter=true&width=900&lines=Engineering+AI+That+Solves+Real+Problems;Computer+Vision+%E2%80%A2+Machine+Learning+%E2%80%A2+Python;Building+Products%2C+Not+Just+Projects;Python+%E2%80%A2+TensorFlow+%E2%80%A2+OpenCV;Learning.+Building.+Shipping.;Turning+Ideas+into+Intelligent+Solutions;Always+Learning.+Always+Building.;Open+to+Collaborations+%26+Opportunities" alt="Typing SVG" />
   </a>
 
   <br/>
 
-  <!-- Raycast-Style Quick Info Bar -->
+  <!-- Raycast command palette search bar -->
   <img src="assets/info-bar.svg" width="100%" alt="Quick Info Panel" />
 
   <br/><br/>
 
-  <!-- Stats view counts -->
-  <img src="https://komarev.com/ghpvc/?username=mrgraciz123&label=⚡+Profile+Views&style=for-the-badge&color=7c3aed&labelColor=1e1b4b" alt="Profile Views" />
+  <!-- Profile View Tracker -->
+  <img src="https://komarev.com/ghpvc/?username=mrgraciz123&label=⚡+TELEMETRY+PINGS&style=for-the-badge&color=7c3aed&labelColor=1e1b4b" alt="Profile Telemetry Views" />
 
   <br/><br/>
 
-  <!-- Social Link Buttons -->
+  <!-- Social Link Badges -->
   <p align="center">
     <a href="https://www.linkedin.com/in/abhay-shanker-tiwari-0a8031213/" target="_blank">
       <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
@@ -51,17 +51,17 @@
 
 ---
 
-## 💎 Executive Summary
+## 🦾 Dev Profile & Bio
 
 <table width="100%" border="0" cellpadding="0" cellspacing="0">
   <tr>
     <td width="58%" valign="top">
-      <p>I am <b>Abhay Shanker Tiwari</b>, a dedicated AI/ML engineer focused on building robust Computer Vision architectures and scalable deep neural networks.</p>
-      <p>My academic foundation in Computer Science at SRMCEM drives me to engineer real-world systems, specializing in biometric identity platforms, real-time video perception, and optimization for low-latency client environments.</p>
+      <p>I am <b>Abhay Shanker Tiwari</b>, an AI/ML developer and Computer Vision engineer based in Lucknow, India. I am passionate about crafting intelligent systems, neural architectures, and pipelines that actually solve real problems—no cap.</p>
+      <p>Currently studying CSE (B.Tech) at SRMCEM. My focus is engineering visual perception and deep models that deploy efficiently under strict hardware constraints. Keeping it optimized, fr fr.</p>
       <ul>
-        <li>🧬 <b>Neural Architecture:</b> Training custom models via PyTorch, TensorFlow, and optimizing weight pipelines.</li>
-        <li>📷 <b>Computer Vision:</b> Object detection, face mesh tracking, segmentation, and live OpenCV pipelines.</li>
-        <li>🌐 <b>API Backends:</b> Connecting ML models to high-frequency endpoints with FastAPI and secure architectures.</li>
+        <li>🚀 <b>Neural Nets:</b> Training CNNs, fine-tuning checkpoints, and keeping the loss minimal.</li>
+        <li>📷 <b>Vision Systems:</b> Facial coordinates tracking, object categorization, and live OpenCV feeds.</li>
+        <li>🌐 <b>Deployments:</b> Serving models behind high-speed FastAPI endpoints.</li>
       </ul>
     </td>
     <td width="4%"></td>
@@ -91,7 +91,7 @@
 
 ## 🛠️ Infrastructure & Tech Stack Console
 
-This console maps out the technology domains I configure to construct end-to-end machine learning infrastructure.
+This schema maps out the technology domains I configure to construct end-to-end machine learning infrastructure.
 
 <div align="center">
   <img src="assets/tech-stack.svg" width="100%" alt="Tech Infrastructure Console" />
@@ -103,9 +103,19 @@ This console maps out the technology domains I configure to construct end-to-end
 
 ---
 
+## 🚦 Neural Telemetry & Status Matrix
+
+A custom-engineered terminal telemetry panel displaying real-time compiler configurations, coffee-to-code conversions, and model parameters.
+
+<div align="center">
+  <img src="assets/dev-status.svg" width="100%" alt="Developer Status Matrix Console" />
+</div>
+
+---
+
 ## 🚀 Curation of Featured AI / ML Projects
 
-These production-grade architectures demonstrate my implementation work in computer vision, statistical modeling, and deep classifier networks.
+These production-ready architectures demonstrate my implementation work in computer vision, statistical modeling, and deep classifier networks.
 
 <!-- Glassmorphism Cards Grid Table -->
 <table width="100%" border="0" cellpadding="0" cellspacing="10" style="border-collapse: separate; border-spacing: 10px;">
@@ -155,39 +165,6 @@ These production-grade architectures demonstrate my implementation work in compu
 
 ---
 
-## 📊 Analytics Workspace
-
-A synchronized aggregation of coding activities and repository statistics across my GitHub profile.
-
-<p align="center">
-  <!-- Stats Card -->
-  <img height="185" src="https://github-readme-stats.vercel.app/api?username=mrgraciz123&show_icons=true&theme=tokyonight&hide_border=true&bg_color=070709&title_color=a855f7&text_color=cbd5e1&icon_color=3b82f6" alt="Abhay's Profile Stats" />
-  &nbsp;&nbsp;
-  <!-- Languages Card -->
-  <img height="185" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mrgraciz123&layout=compact&theme=tokyonight&hide_border=true&bg_color=070709&title_color=a855f7&text_color=cbd5e1&langs_count=6" alt="Abhay's Language Statistics" />
-</p>
-
-<p align="center">
-  <!-- Streak Card -->
-  <img src="https://streak-stats.demolab.com?user=mrgraciz123&theme=tokyonight&hide_border=true&background=070709&ring=a855f7&fire=3b82f6&currStreakLabel=a855f7&sideNums=cbd5e1&sideLabels=94a3b8" alt="Abhay's Commit Streak" />
-</p>
-
-<p align="center">
-  <!-- Activity Graph -->
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=mrgraciz123&theme=tokyo-night&bg_color=070709&color=a855f7&line=3b82f6&point=06b6d4&area=true&hide_border=true" alt="Abhay's Activity Graph" />
-</p>
-
-<br/>
-
-<div align="center">
-  <!-- Trophy Showcase -->
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=mrgraciz123&theme=tokyonight&no-bg=true&no-frame=true&margin-w=15&margin-h=15" alt="Abhay's Trophies" />
-  </a>
-</div>
-
----
-
 ## ⚡ Active Horizon & Systems CLI
 
 Interactive console outputs displaying my current research roadmap, targets for 2026, and developmental trivia.
@@ -227,23 +204,26 @@ $ abhay --trivia --verbose
 
 ## 🐍 Interactive Activity Snake
 
-A background workflow checks in daily to generate a dynamic crawler parsing my contributions matrix:
+An automated workflow executes daily to crawl my GitHub contributions grid and compile a dynamic vector animation:
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/mrgraciz123/mrgraciz123/output/github-contribution-grid-snake-dark.svg" alt="Abhay's Contribution Snake Grid" width="100%" />
-</p>
+```bash
+$ snake-crawler --generate --theme cyberpunk --output output/github-contribution-grid-snake-dark.svg
+> Fetching user contributions matrix: mrgraciz123 ... [OK]
+> Computing snake node path trajectories ... [OK]
+> Compiling active crawler animation frame ... [SUCCESS]
+```
 
 > [!TIP]
-> ### How to set this up on your profile repository:
-> 1. Create a workspace action file: `.github/workflows/snake.yml`
-> 2. Implement the **Platane/snk** runner.
-> 3. Configure it to output to a branch (`output`) or directly check in your SVG asset.
+> ### How to activate this snake on your profile:
+> 1. Create a workspace action file in your repo: `.github/workflows/snake.yml`
+> 2. Add the **Platane/snk** execution hook.
+> 3. Configure the runner to check in the compiled `.svg` asset directly into a branch named `output` so the link becomes active!
 
 ---
 
 ## 📫 Let's Connect!
 
-I am always open to discussing model optimizations, hardware-accelerated computer vision, backend integrations, or potential hackathon collaborations.
+I am always down to discuss model optimizations, high-efficiency vision systems, APIs, or upcoming hackathons.
 
 - **LinkedIn Platform:** [Abhay Shanker Tiwari](https://www.linkedin.com/in/abhay-shanker-tiwari-0a8031213/)
 - **X Profile:** [@mr_graciz](https://x.com/mr_graciz)
@@ -251,8 +231,6 @@ I am always open to discussing model optimizations, hardware-accelerated compute
 
 <div align="center">
   <br/>
-  <!-- Hidden backup snake asset for caching validation -->
-  <img src="https://raw.githubusercontent.com/mrgraciz123/mrgraciz123/output/github-contribution-grid-snake.svg" style="display:none;" />
   <p style="color: #4b5563; font-size: 11px;">
     Handcrafted with ❤️ &amp; SVG Vectors. Inspired by Vercel Design Language.<br/>
     &copy; 2026 Abhay Shanker Tiwari. All Rights Reserved.

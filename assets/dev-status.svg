@@ -1,0 +1,140 @@
+<svg width="100%" height="340" viewBox="0 0 900 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Border Gradient -->
+    <linearGradient id="console-border" x1="0" y1="0" x2="900" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3b82f6" stop-opacity="0.5"/>
+      <stop offset="0.5" stop-color="#a855f7" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#10b981" stop-opacity="0.4"/>
+    </linearGradient>
+
+    <!-- Box Fill Gradients -->
+    <linearGradient id="tile-bg" x1="0" y1="0" x2="0" y2="240" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#09090b" stop-opacity="0.8" />
+      <stop offset="1" stop-color="#020204" stop-opacity="0.95" />
+    </linearGradient>
+
+    <!-- Glowing effect -->
+    <radialGradient id="green-glow" cx="50" cy="50" r="100" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#10b981" stop-opacity="0.15" />
+      <stop offset="1" stop-color="#10b981" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="purple-glow" cx="450" cy="170" r="150" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#a855f7" stop-opacity="0.1" />
+      <stop offset="1" stop-color="#a855f7" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Base Panel -->
+  <rect width="900" height="340" rx="16" fill="#030303" stroke="url(#console-border)" stroke-width="1.5" />
+  
+  <!-- Subtle glowing overlay -->
+  <rect width="900" height="340" rx="16" fill="url(#purple-glow)" />
+
+  <!-- Matrix Dot Grid Overlay -->
+  <pattern id="telemetry-grid" width="20" height="20" patternUnits="userSpaceOnUse">
+    <circle cx="10" cy="10" r="0.75" fill="#ffffff" fill-opacity="0.03" />
+  </pattern>
+  <rect width="900" height="340" rx="16" fill="url(#telemetry-grid)" />
+
+  <!-- Dashboard Header -->
+  <g transform="translate(30, 35)">
+    <text x="0" y="10" font-family="'Space Grotesk', -apple-system, sans-serif" font-weight="700" font-size="12" fill="#10b981" letter-spacing="3">NEURAL SYSTEM TELEMETRY // ACTIVE SESSION</text>
+    <text x="0" y="28" font-family="'Inter', -apple-system, sans-serif" font-weight="400" font-size="10" fill="#64748b">VIBE PROTOCOL: SECURE // NO CAP OPERATIONAL MODE</text>
+    
+    <!-- Pulse signal -->
+    <circle cx="780" cy="18" r="5" fill="#10b981">
+      <animate attributeName="opacity" values="1;0.2;1" dur="1.5s" repeatCount="indefinite" />
+    </circle>
+    <text x="795" y="21" font-family="monospace" font-size="9" fill="#94a3b8">SYS_UP: 99.98%</text>
+  </g>
+
+  <!-- Left Block: CPU / Cognitive Engine status -->
+  <g transform="translate(30, 85)">
+    <rect width="260" height="220" rx="10" fill="url(#tile-bg)" stroke="#1e293b" stroke-width="1" />
+    <text x="20" y="25" font-family="'Space Grotesk', sans-serif" font-weight="700" font-size="13" fill="#ffffff">01 / MODEL WEIGHTS</text>
+    
+    <!-- Circular progress indicator -->
+    <g transform="translate(60, 45)">
+      <!-- Background track -->
+      <circle cx="65" cy="65" r="45" stroke="#1e293b" stroke-width="8" fill="none" />
+      <!-- Colored indicator track -->
+      <circle cx="65" cy="65" r="45" stroke="#a855f7" stroke-width="8" fill="none" stroke-dasharray="283" stroke-dashoffset="30" stroke-linecap="round">
+        <animateTransform attributeName="transform" type="rotate" from="0 65 65" to="360 65 65" dur="15s" repeatCount="indefinite" />
+      </circle>
+      <!-- Center text -->
+      <text x="65" y="70" font-family="'Space Grotesk', sans-serif" font-weight="700" font-size="14" fill="#ffffff" text-anchor="middle">98.4%</text>
+      <text x="65" y="82" font-family="'Inter', sans-serif" font-size="8" fill="#a78bfa" text-anchor="middle">ACCURACY</text>
+    </g>
+
+    <!-- Mini stats list -->
+    <g transform="translate(20, 160)" font-family="monospace" font-size="9.5" fill="#94a3b8">
+      <text x="0" y="10">&gt; PYTORCH CORE: <tspan fill="#ffffff">2.3.0+cuda</tspan></text>
+      <text x="0" y="24">&gt; INTENSITY: <tspan fill="#3b82f6">BUSSIN fr fr</tspan></text>
+      <text x="0" y="38">&gt; COMPUTE TEMPERATURE: <tspan fill="#10b981">CHILL [32°C]</tspan></text>
+    </g>
+  </g>
+
+  <!-- Middle Block: Coffee Conversion Curve (Chart) -->
+  <g transform="translate(320, 85)">
+    <rect width="260" height="220" rx="10" fill="url(#tile-bg)" stroke="#1e293b" stroke-width="1" />
+    <text x="20" y="25" font-family="'Space Grotesk', sans-serif" font-weight="700" font-size="13" fill="#ffffff">02 / COFFEE TO CODE CONVERSION</text>
+    
+    <!-- Vector Graph -->
+    <g transform="translate(20, 50)">
+      <!-- Axes -->
+      <line x1="10" y1="120" x2="210" y2="120" stroke="#334155" stroke-width="1" />
+      <line x1="10" y1="10" x2="10" y2="120" stroke="#334155" stroke-width="1" />
+      
+      <!-- Graph plot line -->
+      <path d="M 10,100 L 40,90 L 70,110 L 100,50 L 130,70 L 160,20 L 190,10 L 210,5" stroke="#3b82f6" stroke-width="2" fill="none" />
+      
+      <!-- Chart glowing dots -->
+      <circle cx="160" cy="20" r="3.5" fill="#06b6d4" />
+      <circle cx="190" cy="10" r="3.5" fill="#06b6d4" />
+      <circle cx="210" cy="5" r="4.5" fill="#10b981">
+        <animate attributeName="r" values="3.5;6;3.5" dur="2s" repeatCount="indefinite" />
+      </circle>
+
+      <!-- Label -->
+      <text x="20" y="20" font-family="monospace" font-size="9" fill="#64748b">PEAK FLOW [AM]</text>
+      <text x="145" y="132" font-family="'Inter', sans-serif" font-size="8" fill="#475569">M</text>
+      <text x="165" y="132" font-family="'Inter', sans-serif" font-size="8" fill="#475569">T</text>
+      <text x="185" y="132" font-family="'Inter', sans-serif" font-size="8" fill="#475569">W</text>
+      <text x="205" y="132" font-family="'Inter', sans-serif" font-size="8" fill="#475569">T</text>
+    </g>
+
+    <g transform="translate(20, 195)" font-family="monospace" font-size="9.5" fill="#94a3b8">
+      <text x="0" y="10">&gt; CURRENT VIBE: <tspan fill="#3b82f6">OPTIMAL CODING fr</tspan></text>
+    </g>
+  </g>
+
+  <!-- Right Block: Gen-Z Matrix Parameters -->
+  <g transform="translate(610, 85)">
+    <rect width="260" height="220" rx="10" fill="url(#tile-bg)" stroke="#1e293b" stroke-width="1" />
+    <text x="20" y="25" font-family="'Space Grotesk', sans-serif" font-weight="700" font-size="13" fill="#ffffff">03 / TELEMETRY OVERRIDES</text>
+    
+    <!-- Matrix items list -->
+    <g transform="translate(20, 50)" font-family="monospace" font-size="11" line-height="1.8">
+      <!-- Item 1 -->
+      <text x="0" y="15" fill="#e2e8f0" font-weight="600">NO_CAP_LOGIC: <tspan fill="#10b981">TRUE</tspan></text>
+      
+      <!-- Item 2 -->
+      <text x="0" y="38" fill="#e2e8f0" font-weight="600">FR_FR_EFFICIENCY: <tspan fill="#10b981">100%</tspan></text>
+      
+      <!-- Item 3 -->
+      <text x="0" y="61" fill="#e2e8f0" font-weight="600">COFFEE_LEVEL: <tspan fill="#a855f7">OVERFLOW</tspan></text>
+
+      <!-- Item 4 -->
+      <text x="0" y="84" fill="#e2e8f0" font-weight="600">BASED_MODEL_LOSS: <tspan fill="#3b82f6">0.024</tspan></text>
+
+      <!-- Item 5 -->
+      <text x="0" y="107" fill="#e2e8f0" font-weight="600">VIBE_CHECK: <tspan fill="#10b981">PASS fr fr</tspan></text>
+      
+      <!-- Item 6 -->
+      <text x="0" y="130" fill="#e2e8f0" font-weight="600">COOKING_STATE: <tspan fill="#fb923c">ON FIRE 🔥</tspan></text>
+    </g>
+
+    <!-- Card indicator bar -->
+    <rect x="0" y="216" width="260" height="4" rx="2" fill="#10b981" />
+  </g>
+</svg>
