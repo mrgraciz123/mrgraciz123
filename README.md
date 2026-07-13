@@ -151,16 +151,16 @@ These production-ready architectures demonstrate my implementation work in compu
 </td>
 </tr>
 <tr>
-<!-- Project Card 5: CineSense AI -->
+<!-- Project Card 5: Iris K-Means -->
 <td width="50%" valign="top">
-<a href="https://github.com/mrgraciz123/CineSense-AI" target="_blank">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=mrgraciz123&repo=CineSense-AI&theme=tokyonight&hide_border=true&bg_color=070709" width="100%" alt="CineSense AI Project Card" />
+<a href="https://github.com/mrgraciz123/iris-kmeans" target="_blank">
+<img src="assets/projects/iris.svg" width="100%" alt="Iris K-Means Project Card" />
 </a>
 </td>
-<!-- Project Card 6: CV Pipeline -->
+<!-- Project Card 6: Insurance Prediction -->
 <td width="50%" valign="top">
-<a href="https://github.com/mrgraciz123/CV-Classifier" target="_blank">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=mrgraciz123&repo=CV-Classifier&theme=tokyonight&hide_border=true&bg_color=070709" width="100%" alt="CV Classifier Project Card" />
+<a href="https://github.com/mrgraciz123/insurance-prediction" target="_blank">
+<img src="assets/projects/insurance.svg" width="100%" alt="Insurance Prediction Project Card" />
 </a>
 </td>
 </tr>
